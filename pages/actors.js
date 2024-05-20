@@ -3,7 +3,7 @@ import Link from "next/link"
 import axios from "axios";
 import { useEffect, useState } from "react";
 
-export default function actors() {
+export default function Actors() {
     const [actors, setActors] = useState([])
 
     useEffect(() => {
