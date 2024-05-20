@@ -9,9 +9,19 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@auth/mongodb-adapter": "^3.1.0",
+    "@aws-sdk/client-s3": "^3.577.0",
+    "autoprefixer": "^10.4.19",
+    "axios": "^1.6.8",
+    "mime-type": "^4.0.0",
+    "mongodb": "^6.6.2",
+    "mongoose": "^8.4.0",
+    "multiparty": "^4.2.3",
+    "next": "14.2.3",
+    "postcss": "^8.4.38",
     "react": "^18",
     "react-dom": "^18",
-    "next": "14.2.3"
+    "tailwindcss": "^3.4.3"
   },
   "devDependencies": {
     "eslint": "^8",
